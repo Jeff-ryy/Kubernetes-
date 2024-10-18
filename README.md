@@ -1,16 +1,16 @@
 # Kubernetes-
-####It consist of commands to setup the Kubernetes Master and Worker Node.
+#### It consist of commands to setup the Kubernetes Master and Worker Node.
 
 
 
-### Command to Run on both Master and Worker Node
+## Command to Run on both Master and Worker Node
 #!/bin/bash
 #
-#### Setup for Control Plane (Master) servers
+### Setup for Control Plane (Master) servers
 
 set -euxo pipefail
 
-#### If you need public access to API server using the servers Public IP adress, change PUBLIC_IP_ACCESS to true.
+### If you need public access to API server using the servers Public IP adress, change PUBLIC_IP_ACCESS to true.
 
 PUBLIC_IP_ACCESS="true"
 NODENAME=$(hostname -s)
